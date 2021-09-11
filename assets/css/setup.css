@@ -1,12 +1,32 @@
 :root{
-    --colorGray : #e0e0e0;
+    --colorGray : #adadad;
     --colorGreen : rgba(24, 169, 65, 1);
     --colorLightGreen : rgb(17, 146, 54);
     --colorSemiBlack : #272727;
     --colorOptionHover : #303030;
 }
 
+a{
+    width: fit-content;
+    text-decoration: none;
+    color: unset;
+}
 
+a:hover{
+    color: inset;
+}
+
+a.button-green{
+    color: #fff;
+}
+
+h6{
+    font-size: 18px;
+}
+
+.font-semibig{
+    font-size: 18px;
+}
 
 @media screen and (min-width : 768px) {
     h1{

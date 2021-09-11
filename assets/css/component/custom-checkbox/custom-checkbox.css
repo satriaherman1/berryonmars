@@ -1,0 +1,27 @@
+.checkbox-box{
+    border: 1px solid rgba(255, 255, 255, 1);
+    min-height: 120px;
+    padding: 15px 12px;
+    border-radius: 14px;
+    position: relative;
+    transition: .2s;
+
+}
+
+.checkbox-box.checked{
+    background: rgba(255, 255, 255, 0.219);
+}
+
+
+.checked-img{
+    position: absolute;
+    width: 20px;
+    top: 7%;
+    right: 12px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.checked .checked-img{
+    opacity: 1;
+}
