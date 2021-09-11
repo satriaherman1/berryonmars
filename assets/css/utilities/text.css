@@ -1,3 +1,11 @@
 .txt-gray{
     color: var(--colorGray);
 }
+
+.font-semibig{
+    font-size: 18px;
+}
+
+.font-semibold{
+    font-weight: 600;
+}

@@ -30,56 +30,45 @@
                     </h1>
                 </div>
                 <div class="col-md-12 col-lg-7 mt-4">
-                    <form action="" class="form">
-                        <p class="txt-gray">What type of jobs are you open to?</p>
+                    <form action="" class="form px-4 py-5">
+                        <p class="text-white font-semibold font-semibig">We have 30+ engineers that match your
+                            requirements and are
+                            <br>
+                            available for immediate hire.
+                        </p>
+                        <br>
+                        <p class="txt-gray mb-0">
+                            Leave your details so we can get in touch.
+                        </p>
 
-                        <div class="jobs-list d-flex justify-content-between flex-column flex-lg-row">
-                            <label for="permanent">
-                                <div class="checkbox-box justify-content-center d-flex flex-column me-lg-3">
-                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
 
-                                    <input type="checkbox" class="d-none" name="" id="permanent"
-                                        onchange="skillCheckChange(this)">
-                                    <div class="mt-1 txt-gray font-normal">
-                                        <h6 class="text-white">Permanent</h6>
-                                        <p class="txt-gray">Go all the way with your own employees</p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="email" placeholder="Company Email" class="custom-input mt-3">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input-phone-box mt-3">
+                                    <div class="position-relative select-phone-wrapper">
+                                        <select name="" id="" class="phone-select">
+                                            <option value="(201) " data-flag="assets/img/flag/usa.svg" selected>
+                                            </option>
+                                            <option value="(+62) " data-flag="assets/img/flag/france.svg">
+                                            </option>
+                                        </select>
+                                        <ul class="custom-phone-list d-none">
+
+                                        </ul>
                                     </div>
-                                </div>
-                            </label>
-                            <label for="freelance">
-                                <div class="checkbox-box justify-content-center d-flex flex-column me-lg-3">
-                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
 
-                                    <input type="checkbox" class="d-none" name="" id="freelance"
-                                        onchange="skillCheckChange(this)">
-                                    <div class="mt-1 txt-gray font-normal">
-                                        <h6 class="text-white">Freelance</h6>
-                                        <p class="txt-gray">Boost your Team with extra power - flexible as you are.</p>
-                                    </div>
+                                    <input type="phone" class="input-phone custom-input w-75 ">
                                 </div>
-                            </label>
-                            <label for="team">
-                                <div class="checkbox-box justify-content-center d-flex flex-column">
-                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
-
-                                    <input type="checkbox" class="d-none" name="" id="team"
-                                        onchange="skillCheckChange(this)">
-                                    <div class="mt-1 txt-gray font-normal">
-                                        <h6 class="text-white">Team</h6>
-                                        <p class="txt-gray">Hire entire remote Teams to work on your
-                                            projects.</p>
-                                    </div>
-                                </div>
-                            </label>
-
+                            </div>
                         </div>
-
-
                         <br>
                         <br>
                         <div class="d-flex justify-content-between">
-                            <a class="button button-transparent text-white d-block mb-1" href="index.html">Previous</a>
-                            <a class="button button-green d-block mb-1" href="step2.html">Next</a>
+                            <a class="button button-transparent text-white d-block mb-1" href="step2.html">Previous</a>
+                            <a class="button button-green d-block mb-1" href="step4.html">Next</a>
                         </div>
                     </form>
                 </div>
@@ -93,6 +82,7 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
     <script src="assets/js/component/form/custom-checkbox.js"></script>
+    <script src="assets/js/component/form/input-phone.js"></script>
     <script src="assets/js/index.js"></script>
 
 </body>
