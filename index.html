@@ -1,0 +1,188 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/pages/form/step1.css">
+    <title>Bryanmars</title>
+</head>
+
+<body>
+    <header>
+        <div class="container d-flex justify-content-between py-4">
+            <img src="assets/img/Logo.svg" width="80px" alt="" srcset="">
+            <div class="step-indicator">
+                Step 1 / 5
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col md-6 px-3">
+                    <h1 class="text-white">Let us match you with the world’s best talent</h1>
+                </div>
+                <div class="col md-6">
+                    <form action="">
+                        <p class="txt-gray">select at least 1 skill</p>
+
+                        <div class="skill-list">
+                            <label for="js">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/js.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="js"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">Javascript</div>
+                                </div>
+                            </label>
+                            <label for="css">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/css.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="css"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">CSS</div>
+                                </div>
+                            </label>
+                            <label for="html">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/html.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="html"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">HTML</div>
+                                </div>
+                            </label>
+                            <label for="php">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/php.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="php"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">PHP</div>
+                                </div>
+                            </label>
+                            <label for="python">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/python.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="python"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">Python</div>
+                                </div>
+                            </label>
+                            <label for="swift">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/swift.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="swift"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">Javascript</div>
+                                </div>
+                            </label>
+                            <label for="c-sharp">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/c-sharp.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="c-sharp"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">C#</div>
+                                </div>
+                            </label>
+                            <label for="react">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/react.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="react"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">React</div>
+                                </div>
+                            </label>
+                            <label for="ruby">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/ruby.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="ruby"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">Ruby</div>
+                                </div>
+                            </label>
+                            <label for="nodejs">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/nodejs.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="nodejs"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">Node.js</div>
+                                </div>
+                            </label>
+                            <label for="mysql">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/mysql.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="mysql"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">MySQL</div>
+                                </div>
+                            </label>
+                            <label for="advice">
+                                <div class="checkbox-box justify-content-center d-flex align-items-center flex-column">
+                                    <img src="assets/img/icon/checked.svg" alt="" class="checked-img">
+                                    <img src="assets/img/icon/advice.svg" width="37.33px" alt="" srcset="">
+                                    <input type="checkbox" class="d-none" name="" id="advice"
+                                        onchange="skillCheckChange(this)">
+                                    <div class="mt-1 txt-gray font-normal">Advice</div>
+                                </div>
+                            </label>
+                        </div>
+
+                        <br>
+                        <div class="position-relative custom-select-field">
+                            <select class="custom-select">
+                                <option value="" disabled selected>Select Skills by Developer Role</option>
+                                <option value="FrontEnd">FrontEnd</option>
+                                <option value="BackEnd">BackEnd</option>
+                                <option value="Data Scientist">Data Scientist</option>
+                                <option value="DevOps">DevOps</option>
+                                <option value="Qa Tester">QA Tester</option>
+                            </select>
+                            <ul class="custom-select-list">
+
+                            </ul>
+                        </div>
+
+                        <!-- Customizable input  -->
+                        <div class="chips chips-autocomplete custom-chips-box">
+                            <div class="custom-chips-input-box">
+                                <input class="custom-chips mt-2" placeholder="Type in your desired skills here ">
+                            </div>
+                        </div>
+
+
+                        <br>
+                        <br>
+                        <button class="button button-green ms-auto d-block mb-1">NEXT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/pages/form/step1.js"></script>
+    <script src="assets/js/component/select/custom-select.js"></script>
+
+</body>
+
+</html>

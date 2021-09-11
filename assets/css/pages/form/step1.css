@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(0, 0, 0,1);
+}
+
+.step-indicator{
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    color: #F9F9F9;
+}
+
+form{
+    background: linear-gradient(219.1deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.112) 100%);
+    padding: 12px 25px;
+    border-radius: 12px;
+}
+
+.skill-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 15px;
+}
+
+.checkbox-box{
+    border: 1px solid rgba(255, 255, 255, 1);
+    min-height: 120px;
+    padding: 15px 12px;
+    border-radius: 14px;
+    position: relative;
+    transition: .2s;
+}
+
+.checkbox-box.checked{
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.checked-img{
+    position: absolute;
+    width: 20px;
+    top: 7%;
+    right: 7%;
+    opacity: 0;
+    transition: .3s;
+}
+
+.checked .checked-img{
+    opacity: 1;
+}

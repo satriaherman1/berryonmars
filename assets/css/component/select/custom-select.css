@@ -1,0 +1,39 @@
+.custom-select-field{
+    position: relative;
+    z-index: 1;
+}
+
+.custom-select{
+    background: rgba(0, 0, 0, 1);
+    width: 100%;
+    padding: 12px 14px;
+    outline: none;
+    color: var(--colorGray);
+    text-indent: 5px;
+}
+
+.custom-select option{
+    padding: 12px;
+    display: none;
+}
+
+.custom-select-list{
+    padding-left: 0;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+
+.custom-select-list li{
+    list-style: none;
+    color: #fff;
+    background: var(--colorSemiBlack);
+    width: 100%;
+    padding: 16px 24px;
+    transition: .2s;
+}
+
+.custom-select-list li:hover{
+    background: var(--colorOptionHover) ;
+    cursor: pointer;
+}

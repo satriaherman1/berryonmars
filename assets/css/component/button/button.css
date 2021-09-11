@@ -1,0 +1,16 @@
+.button{
+    padding: 12px 24px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    transition: .3s;
+}
+
+.button-green{
+    background: var(--colorGreen);
+    color: #fff;
+}
+
+.button-green:hover{
+    background: var(--colorLightGreen);
+}
