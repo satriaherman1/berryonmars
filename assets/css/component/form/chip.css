@@ -1,0 +1,36 @@
+.custom-chips-input{
+    background: rgba(0, 0, 0, 1);
+    outline: none;
+    width: 100%;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.chips-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.chips-list span{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px 12px;
+    background: #fff;
+    border-radius: 100px;
+    margin-left: 6px;
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+
+.chips-list span img{
+    display: block;
+    margin-left: 6px;
+    width: 20px;
+    cursor: pointer;
+}

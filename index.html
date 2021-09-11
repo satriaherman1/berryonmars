@@ -26,10 +26,10 @@
         <div class="container">
             <br>
             <div class="row">
-                <div class="col md-6 px-3">
-                    <h1 class="text-white">Let us match you with the world’s best talent</h1>
+                <div class="col-md-12 col-lg-6 px-3 mt-4">
+                    <h1 class="text-white text-center text-md-start">Let us match you with the world’s best talent</h1>
                 </div>
-                <div class="col md-6">
+                <div class="col-md-12 col-lg-6 mt-4">
                     <form action="">
                         <p class="txt-gray">select at least 1 skill</p>
 
@@ -146,7 +146,7 @@
 
                         <br>
                         <div class="position-relative custom-select-field">
-                            <select class="custom-select">
+                            <select class="custom-select" onclick="selectClick(this)">
                                 <option value="" disabled selected>Select Skills by Developer Role</option>
                                 <option value="FrontEnd">FrontEnd</option>
                                 <option value="BackEnd">BackEnd</option>
@@ -154,22 +154,24 @@
                                 <option value="DevOps">DevOps</option>
                                 <option value="Qa Tester">QA Tester</option>
                             </select>
-                            <ul class="custom-select-list">
+                            <ul class="custom-select-list d-none">
 
                             </ul>
                         </div>
 
                         <!-- Customizable input  -->
-                        <div class="chips chips-autocomplete custom-chips-box">
-                            <div class="custom-chips-input-box">
-                                <input class="custom-chips mt-2" placeholder="Type in your desired skills here ">
+                        <div class="custom-chips-box">
+                            <input class="custom-chips-input mt-2" type="text"
+                                placeholder="Type in your desired skills here ">
+                            <div class="chips-list">
+
                             </div>
                         </div>
 
 
                         <br>
                         <br>
-                        <button class="button button-green ms-auto d-block mb-1">NEXT</button>
+                        <button class="button button-green ms-auto d-block mb-1" onclick="nextPage('2')">NEXT</button>
                     </form>
                 </div>
             </div>
@@ -182,6 +184,8 @@
         crossorigin="anonymous"></script>
     <script src="assets/js/pages/form/step1.js"></script>
     <script src="assets/js/component/select/custom-select.js"></script>
+    <script src="assets/js/component/form/chip.js"></script>
+    <script src="assets/js/index.js"></script>
 
 </body>
 

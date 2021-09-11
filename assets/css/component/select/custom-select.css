@@ -10,6 +10,19 @@
     outline: none;
     color: var(--colorGray);
     text-indent: 5px;
+    appearance: none;
+    position: relative;
+    background-image: url('../../../img/icon/arrow-up.svg');
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    border: none;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.custom-select:focus{
+    border: none;
+    outline: none;
 }
 
 .custom-select option{
@@ -17,10 +30,11 @@
     display: none;
 }
 
+
+
 .custom-select-list{
     padding-left: 0;
     position: absolute;
-    z-index: 3;
     width: 100%;
 }
 
@@ -36,4 +50,8 @@
 .custom-select-list li:hover{
     background: var(--colorOptionHover) ;
     cursor: pointer;
+}
+
+.custom-select-list li:last-child{
+    margin-bottom: 10px;
 }
