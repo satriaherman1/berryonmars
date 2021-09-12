@@ -20,4 +20,7 @@ body{
     background: linear-gradient(219.1deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.112) 100%);
     padding: 12px 25px;
     border-radius: 12px;
+    backdrop-filter: blur(32px);
+    border: 2px solid;
+    border-image-source: linear-gradient(to right , rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0));
 }

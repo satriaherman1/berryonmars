@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 :root{
     --colorGray : #adadad;
     --colorGreen : rgba(24, 169, 65, 1);
@@ -29,12 +29,16 @@ a.button-green{
     color: #fff;
 }
 
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+}
+
 h6{
     font-size: 18px;
 }
 
 .gray-line{
-    border-top: 1.8spx solid #adadad;
+    border-top: 1.8px solid #adadad;
 }
 
 @media screen and (min-width : 768px) {

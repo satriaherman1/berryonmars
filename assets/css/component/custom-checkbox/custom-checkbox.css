@@ -5,6 +5,7 @@
     border-radius: 14px;
     position: relative;
     transition: .2s;
+    cursor: pointer;
 
 }
 
