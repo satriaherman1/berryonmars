@@ -2,11 +2,6 @@
 @import url('../../component/custom-checkbox/custom-checkbox.css');
 
 
-.form{
-    background: linear-gradient(219.1deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.112) 100%);
-    padding: 12px 25px;
-    border-radius: 12px;
-}
 
 .skill-list{
     display: grid;

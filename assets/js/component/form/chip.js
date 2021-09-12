@@ -17,7 +17,7 @@ chipBox.forEach((chipBox) => {
     chipsInput.forEach((input) => {
        
         input.addEventListener('keydown' ,function(){
-            if(event.keyCode === 13){
+            if(event.keyCode === 13 || event.keyCode === 188){
                 event.preventDefault()
                 if(this.value){
                     chipItem.push(this.value)

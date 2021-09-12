@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 :root{
     --colorGray : #adadad;
     --colorGreen : rgba(24, 169, 65, 1);
     --colorLightGreen : rgb(17, 146, 54);
     --colorSemiBlack : #272727;
     --colorOptionHover : #303030;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h-fit{
+    height: fit-content !important;
 }
 
 a{
@@ -24,8 +33,8 @@ h6{
     font-size: 18px;
 }
 
-.font-semibig{
-    font-size: 18px;
+.gray-line{
+    border-top: 1.8spx solid #adadad;
 }
 
 @media screen and (min-width : 768px) {

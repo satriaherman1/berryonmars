@@ -6,7 +6,7 @@
 .custom-select{
     background: rgba(0, 0, 0, 1);
     width: 100%;
-    padding: 12px 14px;
+    padding: 18px 25px;
     outline: none;
     color: var(--colorGray);
     text-indent: 5px;
