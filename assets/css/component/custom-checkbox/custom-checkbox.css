@@ -10,7 +10,15 @@
 }
 
 .checkbox-box.checked{
-    background: rgba(255, 255, 255, 0.219);
+    background: rgb(255, 255, 255);
+}
+
+.checkbox-box.checked .checkbox-img{
+    filter: brightness(0%);
+}
+
+.checkbox-box.checked .checkbox-text{
+    color: #000 !important;
 }
 
 

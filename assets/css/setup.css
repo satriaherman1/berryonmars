@@ -3,8 +3,8 @@
     --colorGray : #adadad;
     --colorGreen : rgba(24, 169, 65, 1);
     --colorLightGreen : rgb(17, 146, 54);
-    --colorSemiBlack : #272727;
-    --colorOptionHover : #303030;
+    --colorSemiBlack : #111111;
+    --colorOptionHover : #202020;
 }
 
 body{
